@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg {background-image: url("https://i.pinimg.com/originals/d1/53/31/d1533169b5dd5d473bbefb767ef0c557.jpg")}
+.bgimg2 {background-image: url("https://img.weddingbazaar.com/shaadisaga_production/photos/pictures/007/394/214/new_large/342335349_266384469145990_2264649900372599270_n.jpg?1690017443")}
+</style>
+</head>
+<body>
+
+<!-- Header / Home-->
+<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo">Chandana & Rajesh</h1>
+    <h2><b>Are getting married<b></h2>
+    <h2><b>26.04.2024</b></h2>
+  </div>
+</header>
+
+<!-- Navbar (sticky bottom) -->
+<div class="w3-bottom w3-hide-small">
+  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+    <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
+    <a href="#us" style="width:25%" class="w3-bar-item w3-button">Chandana & Rajesh</a>
+    <a href="#wedding" style="width:25%" class="w3-bar-item w3-button">Wedding</a>
+    <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black">RSVP</a>
+  </div>
+</div>
+
+<!-- About / Jane And John -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="us">
+  <div class="w3-content">
+    <h1 class="w3-center w3-text-grey"><b>Chandana & Rajesh</b></h1>
+    <img class="w3-round w3-grayscale-min" src="https://scontent.fblr1-4.fna.fbcdn.net/v/t1.6435-9/144166393_1677278005777681_7611864242094174166_n.jpg?stp=c0.21.720.720a_dst-jpg_s851x315&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=bZqbKHLU6MIAb6JcCXj&_nc_ht=scontent.fblr1-4.fna&oh=00_AfAx8D_cNufPfl4XJ-8tbGS57YToIYZ0Y6N4uFzjLbtOSw&oe=664E356C" style="width:100%;margin:32px 0">
+    <p><i>Your presence will add immense happiness to our special day as we exchange vows and begin our new life together. As we stand before our loved ones, we will cherish every moment shared with those who have touched our lives with warmth and affection.
+
+        Your love and support have been a source of strength for us, and we cannot imagine celebrating this momentous occasion without you by our side. Together, let us create memories that will last a lifetime, filled with laughter, joy, and the promise of everlasting love.
+        
+        With heartfelt gratitude and anticipation,<br><center>" Yours Rajesh "</center></i>
+    </p><br>
+    <p class="w3-center"><a href="#wedding" class="w3-button w3-black w3-round w3-padding-large w3-large">Wedding Details</a></p>
+  </div>
+</div>
+
+<!-- Background photo -->
+<div class="w3-display-container bgimg2">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo">You Are Invited</h1><br>
+    <h2>Of course..</h2>
+  </div>
+</div>
+
+<!-- Wedding information -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="wedding">
+  <div class="w3-content">
+    <h1 class="w3-text-grey"><b>THE WEDDING</b></h1>
+    <img class="w3-round-large w3-grayscale-min" src="https://content.jdmagicbox.com/comp/def_content/banquet-halls/banquet-halls-2-1-banquet-halls-16-gzbc1.jpg" style="width:100%;margin:64px 0">
+    <div class="w3-row">
+      <div class="w3-half">
+        <h2>When</h2>
+        <p>Wedding Ceremony -On 9-10Am-26.04.2024</p>
+        <p>Reception & Dinner -On 7:00-25.04.2024 </p>
+      </div>
+      <div class="w3-half">
+        <h2>Where</h2>
+        <p>Sri shyla Kalyana Mantapa </p>
+        <p>T.B Cross, Bagepalli Town</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- RSVP section -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp">
+  <p class="w3-large">Tap to know the location of Venue</p>
+  <p class="w3-xlarge">
+    <button onclick="openMap()" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">View Location</button>
+  </p>
+</div>
+<script>
+    function openMap() {
+        window.open("https://maps.app.goo.gl/a6MZsk9VABdBdUwCA");
+    }
+</script>
+
+<!-- RSVP modal -->
+
+ 
+
+
+<div class="w3-hide-small" style="margin-bottom:32px"> </div>
+
+</body>
+</html>
